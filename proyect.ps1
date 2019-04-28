@@ -1,5 +1,6 @@
 git init 
 git add .
 git status 
-git commit -m "Update"
+$commit = Read-Host "ingrese su commit"
+git commit -m $commit
 git push -f https://github.com/abdielantonioxd/dbguialook.git master 
